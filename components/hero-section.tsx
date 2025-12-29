@@ -17,7 +17,8 @@ export function HeroSection() {
           {/* Left side - Name and intro */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">Alex Rivera</h1>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-balance">Kurniawan</h1>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl tracking-tight text-balance">Nur Hidayat</h1>
               <p className="text-xl md:text-2xl text-muted-foreground">Full-Stack Developer</p>
             </div>
 
@@ -27,22 +28,17 @@ export function HeroSection() {
 
             <div className="flex gap-4">
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/kurniawan1209" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/knhidayat15/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                  <Twitter className="h-5 w-5" />
-                </a>
-              </Button>
-              <Button variant="ghost" size="icon" asChild>
-                <a href="mailto:alex@example.com" aria-label="Email">
+                <a href="mailto:kurniawan1564@gmail.com" aria-label="Email">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>
@@ -52,22 +48,21 @@ export function HeroSection() {
           {/* Right side - Summary */}
           <div className="space-y-6 text-foreground/90 leading-relaxed">
             <p className="text-balance">
-              I'm a developer passionate about crafting accessible, pixel-perfect web applications that blend thoughtful
-              design with robust engineering. My work lies at the intersection of frontend and backend, creating
-              experiences that not only look great but are meticulously built for performance and usability.
+              I am a <strong>Database and Web Engineer</strong> with a strong focus on building reliable, data-driven applications. My work sits across database architecture, backend 
+              integration, and web development, where I design database structures, optimize data flows, and ensure applications are stable, maintainable, and aligned 
+              with actual business needs rather than theoretical perfection.
             </p>
 
             <p className="text-balance">
-              Currently, I'm a <strong>Senior Full-Stack Engineer at TechCorp</strong>, specializing in modern web
-              technologies. I contribute to building scalable platforms that serve millions of users, ensuring our
-              systems meet the highest standards of reliability and user experience.
+              Currently, I work as a <strong>Full-Stack Developer</strong>, contributing to the development and maintenance of production systems. My responsibilities include  
+              integrating data between applications, and building web applications using modern frameworks. I regularly collaborate with other developers to ensure 
+              data integrity, system performance, and smooth application behavior.
             </p>
 
             <p className="text-balance">
-              With <strong>4+ years of experience</strong> across startups and established companies, I've developed
-              software across diverse environments — from fast-paced startups to enterprise corporations. I've shipped
-              features used by thousands of customers and led technical initiatives that improved system performance by
-              40%.
+              With <strong>3+ years of professional experience</strong> across different organizational environments, I have supported internal systems, data 
+              pipelines, and customer-facing applications. I am comfortable working across database, backend, and application layers, and I focus on delivering 
+              solutions that are practical, scalable, and dependable over the long term.
             </p>
           </div>
         </div>
